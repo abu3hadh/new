@@ -26,7 +26,7 @@ async function getStarted(){
        name:"token_bot",
        type:'password',
        message:`Put your Bot token :`,
-       mask:"*"
+       mask:""
      })
      const ask2 = await inquirer.prompt({
        name:"owernid",
